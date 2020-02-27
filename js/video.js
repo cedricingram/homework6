@@ -20,12 +20,12 @@ function pauseVid() {
 
 function decreaseSpeed() {
 	video.playbackRate *=.8;
-  	console.log("Speed is "+video.playbackRate);
+  	console.log("Speed is "+ video.playbackRate);
 }
 
 function increaseSpeed() {
 	video.playbackRate *=1.25;
-	console.log("Speed is "+video.playbackRate);
+	console.log("Speed is "+ video.playbackRate);
 }
 
 function skipAhead() {
